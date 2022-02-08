@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html, body {
+    min-height: 100%;
+    font-family: 'Lora', serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #15317E;
+    color: white;
+}
+
+svg {
+    background-color: #EBF4FA;
+    border: 10px solid #C04000;
+}
+
+#canvas {
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
+
+.county:hover {
+    fill: black;
+}
